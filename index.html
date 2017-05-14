@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>29|</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/index.js"></script>
+		<script src="js/正式封装函数.js"></script>
+	</head>
+	<body>
+		<!--bgm-->
+		
+		<!--右侧导航按钮-->
+		<div id="side-nav">
+			<ul>
+				<li><a href="#pic"><img src="img/ic-pic.png"/></a></li>
+				<li><a href="#video-wrap"><img src="img/ic-video.png"/></a></li>
+				<li><a href="#"><img src="img/ic-article.png"/></a></li>
+				<li><a href="#search-wrap"><img src="img/ic-top.png"/></a></li>
+			</ul>
+		</div>
+		<!--左侧分享按钮-->
+		
+		<div id="share">
+			
+		</div>
+		<!--header部分开始-->
+		<div id="header-wrap">
+			<div id="header" class="clearfix">
+				<div id="logo">
+					<a href="index.html"><img src="img/logo.png"/></a>
+				</div>
+				<div id="nav">
+					<ul>
+						<li class="active"><a href="#search-wrap">主页</a></li>
+						<li><a href="#pic">图片</a></li>
+						<li><a href="#video-wrap">视频</a></li>
+						<li><a href="#">文章</a></li>
+						<li><a href="#">个人中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--header部分结束
+		search部分开始-->
+		<div id="search-wrap">
+			<div id="search">
+				<audio id="music1" src="song/Bon Jovi - It's My Life.mp3" autoplay="autoplay"></audio>
+				<div id="play-btn">
+					<img src="img/play-icon.png"/>
+				</div>
+				<div id="pause-btn">
+					<img src="img/pause-icon.png"/>
+				</div>
+				<div id="vol-btn">
+					<div id="long">
+						<div id="vol-stick"></div>
+						<div id="short"></div>
+					</div>
+				</div>
+				<form action="https://www.baidu.com/？" method="post">
+					<p>
+						<input type="text" id="" value="" placeholder="搜一搜，即刻精彩~~"/>
+						
+					</p>
+					
+					<input type="submit" value="" id="search-btn"/>
+				</form>
+			</div>
+		</div>
+		<!--search部分结束-->
+		<!--pic部分开始-->
+		<div id="pic">
+			<div id="banner">
+				<img src="pic_img/8.jpg"/>
+				<img src="pic_img/6.jpg"/>
+				<img src="pic_img/13.jpg"/>
+				<img src="pic_img/9.jpg"/>
+				<img src="pic_img/10.jpg"/>
+				<img src="pic_img/11.jpg"/>
+				<span id="prev"></span>
+				<span id="next"></span>
+				<ul>
+					<li class="active2"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<!--pic部分结束-->
+		<!--video部分开始-->
+		<div id="video-wrap" class="clearfix">
+			<div id="video">
+				<h4>Video</h4>
+				<div id="video-con" class="clearfix">
+					<div id="con-l">
+						<ul>
+							<li>
+								<a href="http://v.youku.com/v_show/id_XNDk3Nzk1OTg4.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" target="_blank">
+									<span><img src="vid_img/3.jpg"/></span>
+									<p>Devil may cry</p>
+									<div class="play-ic"></div>	
+								</a>
+							</li>
+							<li>
+								<a href="http://v.youku.com/v_show/id_XMTg1ODM3MjA2OA==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" target="_blank">
+									<span><img src="vid_img/1.jpg"/></span>
+									<p>The last of us</p>
+									<div class="play-ic"></div>	
+								</a>
+							</li>
+							<li>
+								<a href="http://v.youku.com/v_show/id_XMTUyNDkwMTAxNg==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" target="_blank">
+									<span><img src="vid_img/2.jpg"/></span>
+									<p>Game of Throne</p>
+									<div class="play-ic"></div>
+								</a>
+							</li>
+							<li>
+								<a href="http://v.youku.com/v_show/id_XMTg2MDY4NTUyNA==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" target="_blank">
+									<span><img src="vid_img/4.jpg"/></span>
+									<p>The Fate of the Furious 8</p>
+									<div class="play-ic"></div>
+								</a>
+							</li>
+							<li>
+								<a href="http://v.youku.com/v_show/id_XMjI1OTczMTg1Ng==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" target="_blank">
+									<span><img src="vid_img/5.jpg"/></span>
+									<p>The last of us</p>
+									<div class="play-ic"></div>	
+								</a>
+							</li>
+							<li>
+								<a href="http://v.youku.com/v_show/id_XMTcxMzUzODA1Ng==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" target="_blank">
+									<span><img src="vid_img/6.jpg"/></span>
+									<p>The last of us</p>
+									<div class="play-ic"></div>	
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="con-r">
+						<h5>美剧 Top10</h5>
+						<ul>
+							<li class="active3">1.权利的游戏<img src="vid2_img/1.png"/></li>
+							<li>2.行尸走肉<img src="vid2_img/2.png"/></li>
+							<li>3.绝命毒师<img src="vid2_img/3.png"/></li>
+							<li>4.绝命律师<img src="vid2_img/4.png"/></li>
+							<li>5.大群<img src="vid2_img/5.png"/></li>
+							<li>6.生活大爆炸<img src="vid2_img/6.png"/></li>
+							<li>7.逍遥法外<img src="vid2_img/7.png"/></li>
+							<li>8.路西法<img src="vid2_img/8.png"/></li>
+							<li>9.美国众神<img src="vid2_img/9.png"/></li>
+							<li>10.硅谷<img src="vid2_img/10.png"/></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--video部分结束-->
+		<!--footer部分开始：-->
+		<div id="footer-wrap">
+			<div id="footer">
+				<p>&copy;Copyright:PsychoYaaaaa2017 Email:907302299@qq.com</p>
+				<ul>
+					<li><img src="img/qq.png"/></li>
+					<li><img src="img/weixin.png"/></li>
+					<li><img src="img/weibo.png"/></li>
+				</ul>
+			</div>
+		</div>
+		<!--footer部分结束：-->
+	</body>
+</html>
